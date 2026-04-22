@@ -29,7 +29,7 @@ export const blogPosts = [
     `
   },
   {
-    id: 2,
+    id: 3,
     title: "The Open Chapter – Where Every Book Begins a New Journey",
     slug: "the-open-chapter-where-every-book-begins",
     date: "2026-04-22",
