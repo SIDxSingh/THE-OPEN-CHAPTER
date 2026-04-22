@@ -80,6 +80,18 @@ const Contact = () => {
               <p>@sidd06</p>
               <a href="https://www.linkedin.com/in/sidd06/" target="_blank" rel="noopener noreferrer" className="btn-secondary mt-2 w-100 d-inline-block text-center" style={{textDecoration: 'none'}}>Connect</a>
             </div>
+            <div className="social-plugin-card">
+              <Mail size={40} className="social-icon gmail" color="#EA4335" />
+              <h4>Gmail</h4>
+              <p>siddharthwizard123@gmail.com</p>
+              <a href="mailto:siddharthwizard123@gmail.com" className="btn-secondary mt-2 w-100 d-inline-block text-center" style={{textDecoration: 'none'}}>Email</a>
+            </div>
+            <div className="social-plugin-card">
+              <Phone size={40} className="social-icon phone" color="#34A853" />
+              <h4>Phone</h4>
+              <p>+91 6386694642</p>
+              <a href="tel:+916386694642" className="btn-secondary mt-2 w-100 d-inline-block text-center" style={{textDecoration: 'none'}}>Call</a>
+            </div>
           </div>
         </div>
       </section>

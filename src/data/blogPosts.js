@@ -1,8 +1,27 @@
 export const blogPosts = [
-
-
   {
     id: 1,
+    title: "Why Our Bookstore Feels Like Home for Book Lovers",
+    slug: "why-our-bookstore-feels-like-home",
+    date: "2026-04-22",
+    author: "Siddharth",
+    excerpt: "Explore how our bookstore became a haven for readers and a hub for book lovers to connect, discover, and feel at home.",
+    content: `
+      <h2>The Magic of Bookstore Moments</h2>
+      <p>Every visit to our bookstore is a new adventure. From the scent of fresh pages to the quiet corners perfect for getting lost in a story, our space is designed for book lovers to feel at home.</p>
+      <h3>Building a Community of Readers</h3>
+      <p>We believe that books bring people together. Our events, from author signings to book club meetings, are all about sharing the joy of reading and discovering new favorites with fellow enthusiasts.</p>
+      <h3>Why Readers Love Our Store</h3>
+      <ul>
+        <li><strong>Cozy Reading Nooks:</strong> Find your favorite spot and settle in with a good book for hours.</li>
+        <li><strong>Curated Collections:</strong> Our shelves are filled with handpicked titles for every kind of reader.</li>
+        <li><strong>Friendly Staff:</strong> We're always here to recommend your next great read or chat about your favorite authors.</li>
+      </ul>
+      <p>Whether you're a lifelong bibliophile or just starting your reading journey, our bookstore is your home away from home. Come visit us and discover the magic of books!</p>
+    `
+  },
+  {
+    id: 2,
     title: "How to Build a Sustainable Reading Habit in 2026",
     slug: "sustainable-reading-habit",
     date: "2026-04-15",

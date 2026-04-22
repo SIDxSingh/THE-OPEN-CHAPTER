@@ -32,8 +32,8 @@ const Footer = () => {
           <div className="footer-contact">
             <h4>Visit Us</h4>
             <p className="text-small">15/A, Inner Circle<br/>Connaught Place<br/>New Delhi - 110001</p>
-            <p className="text-small mt-2"><strong>Phone:</strong> +91 98765 43210</p>
-            <p className="text-small"><strong>Email:</strong> hello@theopenchapter.in</p>
+            <p className="text-small mt-2"><strong>Phone:</strong> 6386694642</p>
+            <p className="text-small"><strong>Email:</strong> siddharthwizard123@gmail.com</p>
           </div>
           <div className="footer-newsletter">
             <h4>Stay Updated</h4>
