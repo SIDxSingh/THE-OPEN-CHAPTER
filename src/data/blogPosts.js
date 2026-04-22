@@ -1,32 +1,8 @@
 export const blogPosts = [
+
+
   {
     id: 1,
-    title: "Top 5 Stylish Sneakers to Wear While Browsing Our Bookstore",
-    slug: "stylish-sneakers-reading",
-    date: "2026-04-22",
-    author: "Siddharth",
-    excerpt: "Comfort is key when you're spending hours browsing the aisles of a bookstore. Discover why having stylish sneakers is the ultimate reading hack.",
-    content: `
-      <h2>The Intersection of Comfort and Literature</h2>
-      <p>When you're diving into a new world through the pages of a book, the last thing you want is physical discomfort distracting you. Whether you're exploring the latest fiction or diving into deep academic texts, comfort starts from the ground up.</p>
-      
-      <h3>Why You Need Stylish Sneakers</h3>
-      <p>A good bookstore visit can last hours. You're walking, standing, and sometimes even sitting on the floor to reach that bottom shelf. <strong>Stylish sneakers</strong> not only provide the support you need but also keep your bookstore aesthetic on point.</p>
-      
-      <h3>Buy Shoes Online India: A Reader's Guide</h3>
-      <p>Finding the perfect pair doesn't have to be hard. When you look to <strong>buy shoes online India</strong>, prioritize brands that offer a mix of breathable materials and strong arch support. Whether you're looking for limited-edition drops or just some <strong>affordable shoes</strong>, there's a perfect pair waiting to accompany you to The Open Chapter.</p>
-      
-      <h3>Our Top Picks</h3>
-      <ul>
-        <li><strong>The Classic Canvas:</strong> Lightweight and timeless, perfect for a sunny Sunday read.</li>
-        <li><strong>The Running Sneaker:</strong> Because sometimes you need to sprint to get the last copy of a bestseller!</li>
-        <li><strong>The Slip-on:</strong> Easy to take off when you want to curl up in one of our cozy reading nooks.</li>
-      </ul>
-      <p>Next time you visit us at Connaught Place, make sure your footwear game is as strong as your reading list!</p>
-    `
-  },
-  {
-    id: 2,
     title: "How to Build a Sustainable Reading Habit in 2026",
     slug: "sustainable-reading-habit",
     date: "2026-04-15",
@@ -53,7 +29,7 @@ export const blogPosts = [
     `
   },
   {
-    id: 3,
+    id: 2,
     title: "The Open Chapter – Where Every Book Begins a New Journey",
     slug: "the-open-chapter-where-every-book-begins",
     date: "2026-04-22",
