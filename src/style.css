@@ -829,3 +829,60 @@ a:hover {
   font-size: 0.875rem;
   font-style: italic;
 }
+
+/* Categories Page */
+.categories-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.categories-search-wrapper {
+  position: relative;
+}
+
+.categories-search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-ink-light);
+}
+
+.categories-search-input {
+  padding-left: 2.5rem;
+  background: white;
+}
+
+.categories-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.category-chip {
+  border: 1px solid rgba(74, 44, 42, 0.2);
+  background: white;
+  color: var(--color-mahogany);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-size: 0.9rem;
+}
+
+.category-chip:hover {
+  border-color: var(--color-gold);
+}
+
+.category-chip.active {
+  background: var(--color-gold);
+  color: var(--color-ink);
+  border-color: var(--color-gold);
+}
+
+.categories-results-count {
+  margin-bottom: var(--space-3);
+  color: var(--color-ink-light);
+}

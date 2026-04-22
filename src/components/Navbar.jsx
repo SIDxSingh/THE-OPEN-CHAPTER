@@ -18,6 +18,7 @@ const Navbar = () => {
         </Link>
         <nav className="nav-links">
           <Link to="/" className={isActive('/')}>Home</Link>
+          <Link to="/categories" className={isActive('/categories')}>Categories</Link>
           <Link to="/about" className={isActive('/about')}>About</Link>
           <Link to="/contact" className={isActive('/contact')}>Contact</Link>
         </nav>
