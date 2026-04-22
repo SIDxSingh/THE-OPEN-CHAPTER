@@ -1,0 +1,2 @@
+// Placeholder image for books without a specific cover
+export default "./placeholder-book.png";
