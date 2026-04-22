@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Map } from 'lucide-react';
+import { MapPin, Map, Mail, Phone } from 'lucide-react';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { Helmet } from 'react-helmet-async';
 
