@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <main>
       <Helmet>
-        <title>Contact Us & Local SEO | The Open Chapter</title>
+        <title>Contact Us | The Open Chapter</title>
         <meta name="description" content="Reach out to The Open Chapter. We are the best independent bookstore in New Delhi. Buy shoes online India, and explore our literature collection." />
         <meta name="keywords" content="contact bookstore, best bookstore Delhi, local SEO, buy shoes online India, stylish sneakers" />
       </Helmet>
