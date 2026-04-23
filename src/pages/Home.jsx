@@ -139,22 +139,46 @@ const Home = () => {
           
           <div className="faq-list">
             {[
-              {
-                question: "Why focus on Organic SEO instead of Paid Ads?",
-                answer: "Organic SEO builds long-term authority and trust. While ads stop the moment you stop paying, high-quality content and strong technical SEO continue to bring in highly targeted readers month after month."
-              },
-              {
-                question: "How do you optimize for local searches in Delhi?",
-                answer: "By heavily optimizing our Google Business Profile, ensuring consistent NAP (Name, Address, Phone) citations across local directories, and creating location-specific content like 'Best Bookstores in CP'."
-              },
-              {
-                question: "Do you ship books outside of New Delhi?",
-                answer: "Yes! While we love seeing our customers in our Connaught Place store, we ship our books and merchandise anywhere in India. You can easily buy books online right here."
-              },
-              {
-                question: "What makes your 'Reading Sneakers' special?",
-                answer: "Our reading sneakers are designed for ultimate comfort, perfect for spending hours browsing aisles or walking to your favorite reading spot. They hit all the right notes if you're looking for stylish sneakers or affordable shoes."
-              }
+             {
+  question: "What kind of books does The Open Chapter offer?",
+  answer: "The Open Chapter offers a wide collection of books including fiction, non-fiction, academic, self-help, and bestsellers. Our catalog is curated to suit readers of all ages and interests."
+},
+{
+  question: "Can I buy books online from The Open Chapter?",
+  answer: "Yes, you can easily browse and purchase books through our website. We provide a smooth and secure checkout experience for all customers."
+},
+{
+  question: "Do you deliver books across India?",
+  answer: "Yes, we deliver books all over India. No matter where you are, you can order from The Open Chapter and get your books delivered to your doorstep."
+},
+{
+  question: "How long does delivery take?",
+  answer: "Delivery usually takes 3–7 business days depending on your location. Metro cities may receive orders faster, while remote areas may take slightly longer."
+},
+{
+  question: "What are the shipping charges?",
+  answer: "Shipping charges may vary based on your location and order value. We also offer free shipping on selected orders or during special promotions."
+},
+{
+  question: "Can I track my order?",
+  answer: "Yes, once your order is shipped, you will receive a tracking link via email or SMS to monitor your delivery status in real-time."
+},
+{
+  question: "What payment methods are available?",
+  answer: "We accept multiple payment options including UPI, debit/credit cards, net banking, and cash on delivery (COD) where available."
+},
+{
+  question: "What is your return or refund policy?",
+  answer: "If you receive a damaged or incorrect book, you can request a return or replacement within a specified time. Refunds are processed quickly after verification."
+},
+{
+  question: "Do you offer discounts or special deals?",
+  answer: "Yes, we regularly provide discounts, seasonal sales, and exclusive offers on selected books. Stay updated by visiting our website frequently."
+},
+{
+  question: "Who is The Open Chapter for?",
+  answer: "The Open Chapter is designed for students, book lovers, and anyone who enjoys reading. Whether you're looking for academic resources or leisure reading, we have something for everyone."
+}
             ].map((faq, index) => (
               <div key={index} className="faq-item" onClick={() => toggleFaq(index)} style={{ cursor: 'pointer', marginBottom: '1rem', background: 'white', padding: '1rem', borderRadius: '0.5rem', boxShadow: '0 2px 4px rgba(0,0,0,0.05)' }}>
                 <div className="faq-question" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
