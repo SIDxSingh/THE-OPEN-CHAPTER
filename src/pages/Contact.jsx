@@ -72,7 +72,7 @@ const Contact = () => {
               <FaInstagram size={40} className="social-icon instagram" />
               <h4>Instagram</h4>
               <p>@siddharthx_2000</p>
-              <a href="https://www.instagram.com/siddharthx_2000/" target="_blank" rel="noopener noreferrer" className="btn-secondary mt-2 w-100 d-inline-block text-center" style={{textDecoration: 'none'}}>Follow</a>
+              <a href="https://www.instagram.com/the_open_chapter_x/" target="_blank" rel="noopener noreferrer" className="btn-secondary mt-2 w-100 d-inline-block text-center" style={{textDecoration: 'none'}}>Follow</a>
             </div>
             <div className="social-plugin-card">
               <FaLinkedin size={40} className="social-icon linkedin" color="#0077b5" />

@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <p className="mt-3 text-small">A sanctuary for bibliophiles in the heart of Delhi. Buy the best books, from fiction to academic texts, at our cozy store.</p>
             <div className="social-icons mt-3">
-              <a href="https://www.instagram.com/siddharthx_2000/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram size={20} /></a>
+              <a href="https://www.instagram.com/the_open_chapter_x/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram size={20} /></a>
               <a href="https://www.linkedin.com/in/sidd06/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin size={20} /></a>
             </div>
           </div>
