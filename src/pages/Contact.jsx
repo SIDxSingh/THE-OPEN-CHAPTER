@@ -13,7 +13,7 @@ const Contact = () => {
       </Helmet>
       <section className="section page-header">
         <div className="section-container text-center">
-          <h1>Contact & Local SEO</h1>
+          <h1>Contact Us</h1>
           <p className="section-subtitle">Reach out to us and see how we dominate local search.</p>
         </div>
       </section>
