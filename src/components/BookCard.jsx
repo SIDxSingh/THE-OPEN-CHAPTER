@@ -8,8 +8,8 @@ const BookCard = ({ book }) => {
 
   return (
     <div className="book-card">
-      <Link to={`/product/${book.slug}`} className="book-image-container" style={{ display: 'block', textDecoration: 'none' }}>
-        <img src={book.image?.default || book.image} alt={book.title} className="book-image" loading="lazy" />
+      <Link to={`/product/${book.slug}`} className="book-image-container" style={{ display: 'block', textDecoration: 'none', backgroundColor: 'var(--color-parchment-dark)', aspectRatio: '3 / 4' }}>
+        <img src={book.image?.default || book.image} alt={book.title} className="book-image" loading="lazy" width="300" height="400" style={{ aspectRatio: '3 / 4', objectFit: 'cover' }} />
         {book.onSale && <span className="sale-badge">Sale</span>}
         <div className="book-category">{book.category}</div>
       </Link>

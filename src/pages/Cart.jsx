@@ -34,7 +34,7 @@ const Cart = () => {
             <div className="cart-items">
               {cart.map((item) => (
                 <div key={item.id} className="cart-item">
-                  <img src={item.image} alt={item.title} className="cart-item-img" />
+                  <img src={item.image} alt={item.title} className="cart-item-img" width="80" height="100" loading="lazy" />
                   <div className="cart-item-details">
                     <h3>{item.title}</h3>
                     <p className="text-small text-muted">{item.author}</p>

@@ -78,12 +78,13 @@ const Product = () => {
           </Link>
           
           <div className="grid-2 mt-4" style={{ alignItems: 'flex-start', gap: '3rem' }}>
-            <div className="product-image-container" style={{ borderRadius: '1rem', overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)' }}>
+            <div className="product-image-container" style={{ borderRadius: '1rem', overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)', backgroundColor: 'var(--color-parchment-dark)', aspectRatio: '3 / 4' }}>
               <img 
                 src={product.image} 
                 alt={product.title} 
-                loading="lazy" 
-                style={{ width: '100%', height: 'auto', display: 'block' }}
+                width="600"
+                height="800"
+                style={{ width: '100%', height: 'auto', display: 'block', aspectRatio: '3 / 4', objectFit: 'cover' }}
               />
             </div>
             <div className="product-info">

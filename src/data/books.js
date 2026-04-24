@@ -6,7 +6,7 @@ export const books = [
     author: "Matt Haig",
     price: 499,
     category: "Fiction",
-    image: "/pictures/Screenshot 2026-04-22 162118.png",
+    image: "/pictures/Screenshot 2026-04-22 162118.webp",
     onSale: true,
     salePrice: 399
   },
@@ -17,7 +17,7 @@ export const books = [
     author: "James Clear",
     price: 699,
     category: "Self-Help",
-    image: "/pictures/Screenshot 2026-04-22 162125.png",
+    image: "/pictures/Screenshot 2026-04-22 162125.webp",
     onSale: false,
     salePrice: null
   },
@@ -28,7 +28,7 @@ export const books = [
     author: "Thomas H. Cormen",
     price: 1200,
     category: "Academic",
-    image: "/pictures/Screenshot 2026-04-22 162135.png",
+    image: "/pictures/Screenshot 2026-04-22 162135.webp",
     onSale: true,
     salePrice: 999
   },
@@ -39,7 +39,7 @@ export const books = [
     author: "Frank Herbert",
     price: 550,
     category: "Sci-Fi",
-    image: "/pictures/Screenshot 2026-04-22 162142.png",
+    image: "/pictures/Screenshot 2026-04-22 162142.webp",
     onSale: false,
     salePrice: null
   },
@@ -50,7 +50,7 @@ export const books = [
     author: "Eric Carle",
     price: 350,
     category: "Children",
-    image: "/pictures/Screenshot 2026-04-22 162150.png",
+    image: "/pictures/Screenshot 2026-04-22 162150.webp",
     onSale: true,
     salePrice: 299
   },
@@ -61,7 +61,7 @@ export const books = [
     author: "Yuval Noah Harari",
     price: 799,
     category: "History",
-    image: "/pictures/Screenshot 2026-04-22 162157.png",
+    image: "/pictures/Screenshot 2026-04-22 162157.webp",
     onSale: false,
     salePrice: null
   },
@@ -72,7 +72,7 @@ export const books = [
     author: "Morgan Housel",
     price: 450,
     category: "Finance",
-    image: "/pictures/Screenshot 2026-04-22 162203.png",
+    image: "/pictures/Screenshot 2026-04-22 162203.webp",
     onSale: true,
     salePrice: 350
   },
@@ -83,7 +83,7 @@ export const books = [
     author: "Jane Austen",
     price: 299,
     category: "Classic",
-    image: "/pictures/Screenshot 2026-04-22 162210.png",
+    image: "/pictures/Screenshot 2026-04-22 162210.webp",
     onSale: false,
     salePrice: null
   },
@@ -94,7 +94,7 @@ export const books = [
     author: "Daniel Kahneman",
     price: 650,
     category: "Psychology",
-    image: "/pictures/Screenshot 2026-04-22 162218.png",
+    image: "/pictures/Screenshot 2026-04-22 162218.webp",
     onSale: true,
     salePrice: 500
   },
@@ -105,7 +105,7 @@ export const books = [
     author: "J.K. Rowling",
     price: 599,
     category: "Fantasy",
-    image: "/pictures/Screenshot 2026-04-22 162227.png",
+    image: "/pictures/Screenshot 2026-04-22 162227.webp",
     onSale: false,
     salePrice: null
   },

@@ -386,7 +386,7 @@ a:hover {
 
 .book-image-container {
   position: relative;
-  height: 250px;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   background: var(--color-parchment-dark);
 }

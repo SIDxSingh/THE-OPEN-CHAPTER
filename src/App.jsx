@@ -28,7 +28,7 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <div className="main-content">
-        <Suspense fallback={<div style={{ display: 'flex', justifyContent: 'center', padding: '5rem', color: 'var(--color-mahogany)' }}>Loading...</div>}>
+        <Suspense fallback={<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '5rem', color: 'var(--color-mahogany)', minHeight: '60vh' }}>Loading...</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
