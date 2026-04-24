@@ -1,27 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GYFKN1YNFG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GYFKN1YNFG');
-</script>
-
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/book-icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="The Open Chapter – Best independent bookstore in Connaught Place, New Delhi. Buy fiction, academic, self-help and children's books in Delhi. Explore our collection today!" />
     <title>The Open Chapter | Best Bookstore in Delhi – Connaught Place</title>
+    
+    <!-- Preconnect and Preload for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1920&q=80" />
+    
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Lato:wght@300;400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Google tag (gtag.js) deferred to bottom -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYFKN1YNFG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GYFKN1YNFG');
+    </script>
   </body>
 </html>
